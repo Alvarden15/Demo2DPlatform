@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="56" extheight="544" extwidth="1024" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="75.0" height="480" id="7" name="Level5" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="960">
+    <layers>
+        <grad-bg b1="102" b2="255" g1="153" g2="255" r1="51" r2="204"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Capa 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="1" id="40" name="FloatingHL 1" order="0" sx="10.125" sy="1.4" x="516" y="352" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="1" id="32" name="FloatingHR 2" order="1" sx="9.625" sy="1.2" x="519" y="281" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="1" id="40" name="FloatingHL 3" order="2" sx="9.625" sy="1.4" x="519" y="206" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="1" id="32" name="FloatingHR 4" order="3" sx="9.625" sy="1.2" x="523" y="128" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="0" id="3" name="Noni 5" order="4" sx="1.0" sy="1.0" x="506" y="415" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="35" name="Ufo 6" order="5" sx="1.0" sy="1.0" x="211" y="37" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="35" name="Ufo 7" order="6" sx="1.0" sy="1.0" x="212" y="191" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="4" id="35" name="Ufo 8" order="7" sx="1.0" sy="1.0" x="684" y="24" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="4" id="35" name="Ufo 9" order="8" sx="1.0" sy="1.0" x="682" y="171" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="1" id="40" name="FloatingHL 10" order="9" sx="7.125" sy="1.0" x="798" y="449" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="1" id="32" name="FloatingHR 11" order="10" sx="8.125" sy="1.0" x="235" y="447" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="10">
+            <prop id="1" list="0" val="-1"/>
+            <prop id="2" list="0" val="580"/>
+            <prop id="3" list="0" val="0.0"/>
+            <prop id="4" list="0" val="0.0"/>
+            <prop id="6" list="0" val="0.0"/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="true"/>
+        </s>
+        <s enabled="true" id="12">
+            <prop id="1" list="0" val="4"/>
+            <prop id="2" list="0" val="0.0"/>
+            <prop id="3" list="0" val=""/>
+            <prop id="4" list="0" val="false"/>
+            <prop id="5" list="0" val="true"/>
+            <prop id="6" list="0" val="0"/>
+            <prop id="7" list="0" val="7"/>
+            <prop id="10" list="0" val="-1"/>
+            <prop id="11" list="0" val="true"/>
+            <prop id="12" list="0" val="0"/>
+            <prop id="13" list="0" val="0.5"/>
+            <prop id="14" list="0" val="0.5"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,0.0,32.0,0.0,0.0,224.0,0.0,224.0,32.0" x="416.0" y="448.0"/>
+        <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="896.0" y="224.0"/>
+        <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="224.0"/>
+        <p pts="4,0.0,0.0,64.0,0.0,64.0,32.0,0.0,32.0" x="896.0" y="96.0"/>
+        <p pts="4,64.0,32.0,0.0,32.0,0.0,0.0,64.0,0.0" x="896.0" y="352.0"/>
+        <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="96.0"/>
+        <p pts="4,0.0,0.0,64.0,0.0,64.0,32.0,0.0,32.0" x="0.0" y="352.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

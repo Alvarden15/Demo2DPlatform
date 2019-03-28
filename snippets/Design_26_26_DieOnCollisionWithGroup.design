@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-actortogroup comment="false" x="17" y="18">
+            <group eventID="1" id="-1">
+                <die comment="false" x="28" y="50">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <get-val-26-2 comment="false" id="1" x="0" y="0"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="1" id="-1">
+        <first-actor comment="false" x="347" y="26"/>
+    </group>
+</groups>

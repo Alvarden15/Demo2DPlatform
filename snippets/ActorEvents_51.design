@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="71" y="201">
+            <group eventID="1" id="-1">
+                <set-val-59-1 comment="false" x="82" y="226">
+                    <tile-coord-at comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <get-xy comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </get-xy>
+                    </tile-coord-at>
+                </set-val-59-1>
+                <set-val-59-2 comment="false" x="82" y="272">
+                    <tile-coord-at comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <plus comment="false" id="1" x="0" y="0">
+                            <get-xy comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <get-wh comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-wh>
+                        </plus>
+                    </tile-coord-at>
+                </set-val-59-2>
+                <if comment="false" x="82" y="323">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="93" y="366">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <neg comment="false" id="2" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                            </neg>
+                        </set-dxy>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <tileCollisionAt2 comment="false" id="0" x="0" y="0">
+                            <get-val-59-2 comment="false" id="0" x="0" y="0"/>
+                            <get-val-59-1 comment="false" id="1" x="0" y="0"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="0"/>
+                        </tileCollisionAt2>
+                    </not>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="25" y="18">
+            <group eventID="3" id="-1">
+                <set-dxy comment="false" x="36" y="43">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="10"/>
+                </set-dxy>
+                <set-val-59-3 comment="false" x="36" y="70">
+                    <int id="0" val="1"/>
+                </set-val-59-3>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

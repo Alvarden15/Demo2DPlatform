@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="8" extheight="544" extwidth="704" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="75.0" height="480" id="1" name="Level2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <grad-bg b1="255" b2="255" g1="102" g2="255" r1="51" r2="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="4" id="5" name="Clown 2" order="0" sx="1.0" sy="1.0" x="415" y="193" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="4" id="5" name="Clown 3" order="1" sx="1.0" sy="1.0" x="320" y="257" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="4" id="5" name="Clown 4" order="2" sx="1.0" sy="1.0" x="226" y="322" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="5" name="Clown 5" order="3" sx="1.0" sy="1.0" x="287" y="65" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="5" name="Clown 7" order="4" sx="1.0" sy="1.0" x="191" y="66" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="0" id="3" name="Noni 8" order="5" sx="1.0" sy="1.0" x="68" y="417" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="4" id="5" name="Clown 9" order="6" sx="1.0" sy="1.0" x="386" y="65" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="10">
+            <prop id="1" list="0" val="-1"/>
+            <prop id="2" list="0" val="580.0"/>
+            <prop id="3" list="0" val="0.0"/>
+            <prop id="4" list="0" val="0.0"/>
+            <prop id="6" list="0" val="0.0"/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="true"/>
+        </s>
+        <s enabled="true" id="12">
+            <prop id="1" list="0" val="4"/>
+            <prop id="2" list="0" val="0.0"/>
+            <prop id="3" list="0" val="All right!"/>
+            <prop id="4" list="0" val="false"/>
+            <prop id="5" list="0" val="true"/>
+            <prop id="6" list="0" val="0"/>
+            <prop id="7" list="0" val="7"/>
+            <prop id="10" list="0" val="-1"/>
+            <prop id="11" list="0" val="true"/>
+            <prop id="12" list="0" val="2"/>
+            <prop id="13" list="0" val="0.5"/>
+            <prop id="14" list="0" val="0.5"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="6,128.0,32.0,128.0,0.0,160.0,0.0,160.0,64.0,0.0,64.0,0.0,32.0" x="480.0" y="160.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,640.0,0.0,640.0,32.0" x="0.0" y="448.0"/>
+        <p pts="4,32.0,32.0,0.0,32.0,0.0,0.0,32.0,0.0" x="416.0" y="256.0"/>
+        <p pts="4,0.0,0.0,32.0,0.0,32.0,32.0,0.0,32.0" x="384.0" y="128.0"/>
+        <p pts="4,0.0,0.0,32.0,0.0,32.0,32.0,0.0,32.0" x="192.0" y="128.0"/>
+        <p pts="4,0.0,0.0,32.0,0.0,32.0,32.0,0.0,32.0" x="288.0" y="128.0"/>
+        <p pts="4,32.0,32.0,0.0,32.0,0.0,0.0,32.0,0.0" x="224.0" y="384.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="320.0" y="320.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

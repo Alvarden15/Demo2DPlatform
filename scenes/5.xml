@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="45" extheight="544" extwidth="1024" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="75.0" height="480" id="5" name="Level5" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="960">
+    <layers>
+        <grad-bg b1="0" b2="204" g1="51" g2="255" r1="0" r2="204"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Capa 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="3" name="Noni 1" order="0" sx="1.0" sy="1.0" x="463" y="418" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="4" id="35" name="Ufo 18" order="8" sx="1.09375" sy="0.75" x="186" y="194" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="1" id="32" name="FloatingH 3" order="1" sx="9.125" sy="1.6" x="461" y="351" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="4" id="35" name="Ufo 19" order="9" sx="1.09375" sy="0.75" x="696" y="22" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="1" id="32" name="FloatingH 4" order="2" sx="9.625" sy="1.8" x="458" y="185" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="4" id="35" name="Ufo 20" order="10" sx="1.09375" sy="0.75" x="699" y="197" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="1" id="40" name="FloatingH2 5" order="3" sx="9.375" sy="2.0" x="458" y="265" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="1" id="40" name="FloatingH2 10" order="4" sx="9.375" sy="2.0" x="455" y="108" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="1" id="32" name="FloatingHR 12" order="5" sx="8.75" sy="1.6" x="175" y="447" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="1" id="40" name="FloatingHL 13" order="6" sx="9.125" sy="1.6" x="804" y="446" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="4" id="35" name="Ufo 14" order="7" sx="1.09375" sy="0.75" x="180" y="23" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="10">
+            <prop id="1" list="0" val="-1"/>
+            <prop id="2" list="0" val="580.0"/>
+            <prop id="3" list="0" val="0.0"/>
+            <prop id="4" list="0" val="0.0"/>
+            <prop id="6" list="0" val="0.0"/>
+            <prop id="7" list="0" val=""/>
+            <prop id="8" list="0" val=""/>
+            <prop id="9" list="0" val="0.0"/>
+            <prop id="10" list="0" val="true"/>
+        </s>
+        <s enabled="true" id="12">
+            <prop id="1" list="0" val="4"/>
+            <prop id="2" list="0" val="0.0"/>
+            <prop id="3" list="0" val=""/>
+            <prop id="4" list="0" val="false"/>
+            <prop id="5" list="0" val="true"/>
+            <prop id="6" list="0" val="0"/>
+            <prop id="7" list="0" val="0"/>
+            <prop id="10" list="0" val="-1"/>
+            <prop id="11" list="0" val="true"/>
+            <prop id="12" list="0" val="0"/>
+            <prop id="13" list="0" val="0.5"/>
+            <prop id="14" list="0" val="0.5"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="896.0" y="224.0"/>
+        <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="224.0"/>
+        <p pts="4,192.0,0.0,192.0,32.0,0.0,32.0,0.0,0.0" x="384.0" y="448.0"/>
+        <p pts="4,0.0,0.0,64.0,0.0,64.0,32.0,0.0,32.0" x="896.0" y="96.0"/>
+        <p pts="4,64.0,32.0,0.0,32.0,0.0,0.0,64.0,0.0" x="896.0" y="352.0"/>
+        <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="96.0"/>
+        <p pts="4,0.0,0.0,64.0,0.0,64.0,32.0,0.0,32.0" x="0.0" y="352.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

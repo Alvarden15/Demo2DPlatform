@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <for-each comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="65">
+                            <group eventID="-1" id="-1">
+                                <set-frame comment="false" x="48" y="120">
+                                    <ACTOR eid="this" id="0"/>
+                                    <as-number comment="false" id="1" x="0" y="0">
+                                        <get-item comment="false" id="0" x="0" y="0">
+                                            <str-split comment="false" id="0" x="0" y="0">
+                                                <tostring comment="false" id="0" x="0" y="0">
+                                                    <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                </tostring>
+                                                <int id="1" val=","/>
+                                            </str-split>
+                                            <int id="1" val="1"/>
+                                        </get-item>
+                                    </as-number>
+                                </set-frame>
+                            </group>
+                            <and comment="false" id="0" x="0" y="0">
+                                <eq comment="false" id="0" x="0" y="0">
+                                    <getanim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </getanim>
+                                    <string-to-anim comment="false" id="1" x="0" y="0">
+                                        <get-item comment="false" id="0" x="0" y="0">
+                                            <str-split comment="false" id="0" x="0" y="0">
+                                                <tostring comment="false" id="0" x="0" y="0">
+                                                    <for-each-item comment="false" id="0" x="0" y="0"/>
+                                                </tostring>
+                                                <int id="1" val=","/>
+                                            </str-split>
+                                            <int id="1" val="0"/>
+                                        </get-item>
+                                    </string-to-anim>
+                                </eq>
+                                <not comment="false" id="1" x="0" y="0">
+                                    <is-anim comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </is-anim>
+                                </not>
+                            </and>
+                        </if>
+                    </group>
+                    <get-val-13-1 comment="false" id="0" x="0" y="0"/>
+                </for-each>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

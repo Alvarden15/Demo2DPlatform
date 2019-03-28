@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="60" extheight="544" extwidth="704" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="75.0" height="480" id="8" name="Level0" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <grad-bg b1="0" b2="0" g1="255" g2="51" r1="255" r2="153"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Capa 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="3" name="Noni 1" order="0" sx="1.0" sy="1.0" x="199" y="417" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="4" id="5" name="Clown 2" order="1" sx="1.0" sy="1.0" x="325" y="319" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="4" id="5" name="Clown 3" order="2" sx="1.0" sy="1.0" x="169" y="226" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="4" id="5" name="Clown 4" order="3" sx="1.0" sy="1.0" x="526" y="227" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="5" name="Clown 5" order="4" sx="1.0" sy="1.0" x="340" y="128" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="5" name="Clown 6" order="5" sx="1.0" sy="1.0" x="156" y="33" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="5" name="Clown 7" order="6" sx="1.0" sy="1.0" x="545" y="30" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,128.0,0.0,128.0,32.0,0.0,32.0,0.0,0.0" x="480.0" y="96.0"/>
+        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="288.0" y="384.0"/>
+        <p pts="4,640.0,0.0,640.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="448.0"/>
+        <p pts="4,192.0,0.0,192.0,32.0,0.0,32.0,0.0,0.0" x="416.0" y="288.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,160.0,0.0,160.0,32.0" x="96.0" y="96.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,160.0,0.0,160.0,32.0" x="96.0" y="288.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,128.0,0.0,128.0,32.0" x="288.0" y="192.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>
